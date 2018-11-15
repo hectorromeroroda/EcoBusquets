@@ -33,3 +33,24 @@
    height: 20%;
    width: 60%
 }
+
+#linksAnclaTub .titulo,
+#linksAnclaEnergia .titulo,
+#linksAnclaAigua .titulo,
+#linksAnclaMobilitat .titulo,
+#linksAnclaResidus .titulo{
+    height: 50px;
+ }
+
+ #linksAnclaTub .imgTitulo,
+ #linksAnclaTub .titulo .row,
+ #linksAnclaEnergia .imgTitulo,
+ #linksAnclaEnergia .titulo .row,
+ #linksAnclaAigua .imgTitulo,
+ #linksAnclaAigua .titulo .row,
+ #linksAnclaMobilitat .imgTitulo,
+ #linksAnclaMobilitat .titulo .row,
+ #linksAnclaResidus .imgTitulo,
+ #linksAnclaResidus .titulo .row{
+    height: 100%;
+ }
