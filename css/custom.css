@@ -28,3 +28,8 @@
 #linksNivell1 .titulo{
     float: right;
 }
+
+#linksNivell1 .centrado{
+   height: 20%;
+   width: 60%
+}
