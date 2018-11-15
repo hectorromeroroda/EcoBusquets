@@ -34,6 +34,14 @@
    width: 60%
 }
 
+#linksAnclaHorts .titulo,
+#linksAnclaFruiters .titulo,
+#linksAnclaDistribucio .titulo,
+#linksAnclaProcesament .titulo,
+#linksAnclaActivitats .titulo,
+#linksAnclaPlaza .titulo,
+#linksAnclaCentre .titulo,
+#linksAnclaAllotjaments .titulo,
 #linksAnclaAltres .titulo,
 #linksAnclaViure .titulo,
 #linksAnclaArtesans .titulo,
@@ -57,6 +65,22 @@
     height: 50px;
  }
 
+ #linksAnclaHorts .imgTitulo,
+ #linksAnclaHorts .titulo .row,
+ #linksAnclaFruiters .imgTitulo,
+ #linksAnclaFruiters .titulo .row,
+ #linksAnclaDistribucio .imgTitulo,
+ #linksAnclaDistribucio .titulo .row,
+ #linksAnclaProcesament .imgTitulo,
+ #linksAnclaProcesament .titulo .row,
+ #linksAnclaActivitats .imgTitulo,
+ #linksAnclaActivitats .titulo .row,
+ #linksAnclaPlaza .imgTitulo,
+ #linksAnclaPlaza .titulo .row,
+ #linksAnclaCentre .imgTitulo,
+ #linksAnclaCentre .titulo .row,
+ #linksAnclaAllotjaments .imgTitulo,
+ #linksAnclaAllotjaments .titulo .row,
  #linksAnclaAltres .imgTitulo,
  #linksAnclaAltres .titulo .row,
  #linksAnclaViure .imgTitulo,
