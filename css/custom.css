@@ -34,6 +34,8 @@
    width: 60%
 }
 
+#linksAnclaAltres .titulo,
+#linksAnclaViure .titulo,
 #linksAnclaArtesans .titulo,
 #linksAnclaArtistes .titulo,
 #linksAnclaEmpreses .titulo,
@@ -55,6 +57,10 @@
     height: 50px;
  }
 
+ #linksAnclaAltres .imgTitulo,
+ #linksAnclaAltres .titulo .row,
+ #linksAnclaViure .imgTitulo,
+ #linksAnclaViure .titulo .row,
  #linksAnclaArtesans .imgTitulo,
  #linksAnclaArtesans .titulo .row,
  #linksAnclaArtistes .imgTitulo,
