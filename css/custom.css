@@ -1,0 +1,30 @@
+/*General*/
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/* Index*/
+#botonesHome .imgboton{
+    width: 60%;
+}
+
+#botonesHome .card{
+    text-align: center;
+    border: 2px solid;
+    border-radius: 0px;
+}
+
+#imagenPrincipal.container-fluid{
+    margin-top: 56px;
+}
+
+/* Nivell1*/
+#linksNivell1 .icono{
+    float: left;
+}
+
+#linksNivell1 .titulo{
+    float: right;
+}
