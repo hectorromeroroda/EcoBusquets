@@ -7,6 +7,33 @@
         <script src="js/jquery-3.3.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"type="text/javascript" charset="utf-8"></script>
+        <script>
+            $(function(){
+
+                $('a[href*=#]').click(function() {
+        
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+                    && location.hostname == this.hostname) {
+        
+                        var $target = $(this.hash);
+        
+                        $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+        
+                        if ($target.length) {
+        
+                            var targetOffset = $target.offset().top;
+        
+                            $('html,body').animate({scrollTop: targetOffset}, 1000);
+        
+                            return false;
+        
+                        }   
+                    }
+                });
+            });
+        </script>
     </head> 
 
     <header>    
@@ -96,7 +123,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4"> 
                         <div class="container centrado">
-                            <a title=" " href="#linksAnclaHorts" >
+                            <a title=" " href="#linksAnclaArquitectura1" >
                                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 icono">
                                     <img class="card-img-top imgboton" src="imgs/cuerda_icono.png" title=" " alt=" ">
                                 </div>
@@ -108,7 +135,7 @@
                     </div> 
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                         <div class="container centrado">        
-                            <a title=" " href="#linksAnclaFruiters" >
+                            <a title=" " href="#linksAnclaArquitectura2" >
                                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 icono">
                                     <img class="card-img-top imgboton" src="imgs/cuerda_icono.png" title=" " alt=" ">
                                 </div>
@@ -120,7 +147,7 @@
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                         <div class="container centrado">        
-                            <a title=" " href="#linksAnclaDistribucio" >
+                            <a title=" " href="#linksAnclaArquitectura3" >
                                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 icono">
                                     <img class="card-img-top imgboton" src="imgs/cuerda_icono.png" title=" " alt=" ">
                                 </div>
@@ -134,7 +161,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                         <div class="container centrado">       
-                            <a title=" " href="#linksAnclaProcesament" >
+                            <a title=" " href="#linksAnclaArquitectura4" >
                                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 icono">
                                     <img class="card-img-top imgboton" src="imgs/cuerda_icono.png" title=" " alt=" ">
                                 </div>
@@ -149,14 +176,14 @@
         </div>  
 
 
-        <div id="linksAnclaHorts" class="container-fluid">    
+        <div id="linksAnclaArquitectura1" class="container-fluid">    
             <div class="container titulo">
                 <div class="row">
                     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 iconoAncla">
                         <img class="card-img-top imgTitulo" src="imgs/cuerda_icono.png" title=" " alt=" ">
                     </div>
                     <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 tituloAncla"> 
-                        <h2>Horts</h2>
+                        <h2>¿?¿?¿?</h2>
                     </div>      
                 </div>
             </div>
@@ -188,14 +215,14 @@
             </div>
         </div>
 
-        <div id="linksAnclaFruiters" class="container-fluid">    
+        <div id="linksAnclaArquitectura2" class="container-fluid">    
             <div class="container titulo">
                 <div class="row">
                     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 iconoAncla">
                         <img class="card-img-top imgTitulo" src="imgs/cuerda_icono.png" title=" " alt=" ">
                     </div>
                     <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 tituloAncla"> 
-                        <h2>Fruiters</h2>
+                        <h2>¿?¿?¿?</h2>
                     </div>      
                 </div>
             </div>
@@ -227,14 +254,14 @@
             </div>
         </div>
 
-        <div id="linksAnclaDistribucio" class="container-fluid">    
+        <div id="linksAnclaArquitectura3" class="container-fluid">    
             <div class="container titulo">
                 <div class="row">
                     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 iconoAncla">
                         <img class="card-img-top imgTitulo" src="imgs/cuerda_icono.png" title=" " alt=" ">
                     </div>
                     <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 tituloAncla"> 
-                        <h2>Distribució i venda</h2>
+                        <h2>¿?¿?¿?</h2>
                     </div>      
                 </div>
             </div>
@@ -266,14 +293,14 @@
             </div>
         </div>
 
-        <div id="linksAnclaProcesament" class="container-fluid">    
+        <div id="linksAnclaArquitectura4" class="container-fluid">    
             <div class="container titulo">
                 <div class="row">
                     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 iconoAncla">
                         <img class="card-img-top imgTitulo" src="imgs/cuerda_icono.png" title=" " alt=" ">
                     </div>
                     <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 tituloAncla"> 
-                        <h2>Procesament</h2>
+                        <h2>¿?¿?¿?</h2>
                     </div>      
                 </div>
             </div>

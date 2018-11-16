@@ -34,6 +34,11 @@
    width: 60%
 }
 
+#linksAnclaArquitectura1 .titulo,
+#linksAnclaArquitectura2 .titulo,
+#linksAnclaArquitectura3 .titulo,
+#linksAnclaArquitectura4 .titulo,
+#linksAnclaSinTitulo .titulo,
 #linksAnclaHorts .titulo,
 #linksAnclaFruiters .titulo,
 #linksAnclaDistribucio .titulo,
@@ -42,7 +47,7 @@
 #linksAnclaPlaza .titulo,
 #linksAnclaCentre .titulo,
 #linksAnclaAllotjaments .titulo,
-#linksAnclaAltres .titulo,
+#linksAnclaCursos .titulo,
 #linksAnclaViure .titulo,
 #linksAnclaArtesans .titulo,
 #linksAnclaArtistes .titulo,
@@ -65,6 +70,16 @@
     height: 50px;
  }
 
+ #linksAnclaArquitectura1 .imgTitulo,
+ #linksAnclaArquitectura1 .titulo .row,
+ #linksAnclaArquitectura2 .imgTitulo,
+ #linksAnclaArquitectura2 .titulo .row,
+ #linksAnclaArquitectura3 .imgTitulo,
+ #linksAnclaArquitectura3 .titulo .row,
+ #linksAnclaArquitectura4 .imgTitulo,
+ #linksAnclaArquitectura4 .titulo .row,
+ #linksAnclaSinTitulo .imgTitulo,
+ #linksAnclaSinTitulo .titulo .row,
  #linksAnclaHorts .imgTitulo,
  #linksAnclaHorts .titulo .row,
  #linksAnclaFruiters .imgTitulo,
@@ -81,8 +96,8 @@
  #linksAnclaCentre .titulo .row,
  #linksAnclaAllotjaments .imgTitulo,
  #linksAnclaAllotjaments .titulo .row,
- #linksAnclaAltres .imgTitulo,
- #linksAnclaAltres .titulo .row,
+ #linksAnclaCursos .imgTitulo,
+ #linksAnclaCursos .titulo .row,
  #linksAnclaViure .imgTitulo,
  #linksAnclaViure .titulo .row,
  #linksAnclaArtesans .imgTitulo,
