@@ -7,6 +7,33 @@
         <script src="js/jquery-3.3.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"type="text/javascript" charset="utf-8"></script>
+        <script>
+            $(function(){
+
+                $('a[href*=#]').click(function() {
+        
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+                    && location.hostname == this.hostname) {
+        
+                        var $target = $(this.hash);
+        
+                        $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+        
+                        if ($target.length) {
+        
+                            var targetOffset = $target.offset().top;
+        
+                            $('html,body').animate({scrollTop: targetOffset}, 1000);
+        
+                            return false;
+        
+                        }   
+                    }
+                });
+            });
+        </script>
     </head> 
 
     <header>    
@@ -182,6 +209,8 @@
                         <p>TextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextovTextoTextoTextoTextoTextoTextoTjhkjhkjhkjhkhkjjhkhkjhkh
                                         extoTextoTextoTextoTextoTextoTextoTextoTextoTextov.
                         </p>
+                        <!-- Button para abrir el nivell2 -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalActivitats">LLegir més</button>
                     </div>
                 </div>
             </div>
@@ -221,6 +250,8 @@
                         <p>TextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextovTextoTextoTextoTextoTextoTextoTjhkjhkjhkjhkhkjjhkhkjhkh
                                     extoTextoTextoTextoTextoTextoTextoTextoTextoTextov.
                         </p>
+                        <!-- Button para abrir el nivell2 -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalPlaza">LLegir més</button>
                     </div>
                 </div>
             </div>
@@ -299,6 +330,224 @@
                         <p>TextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextovTextoTextoTextoTextoTextoTextoTjhkjhkjhkjhkhkjjhkhkjhkh
                             extoTextoTextoTextoTextoTextoTextoTextoTextoTextov.
                         </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MODAL ACTIVITATS -->
+        <div class="modal" id="modalActivitats">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <div id="imagenPrincipalNivell2" class="container-fluid">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <div class="imagen">
+                                        <img class="img-fluid" src="imgs/principal.jpg" title=" " alt=" ">
+                                    </div>
+                                    <h4 class="modal-title">Activitats</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+          
+                        <!-- Modal body -->
+                    <div class="modal-body">
+                        <div id="textoNivell1" class="container-fluid texto">    
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <h5 class="modal-title">Activitat 1</h5>
+                                        <p>TextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextovTextoTextoTextoTextoTextwrwe
+                                            rwrewrwerwrewraaaTextoTextoTextoTextoTextoTextoTextovTextovTextoTextoTextoTextoTexto
+                                            vvvvvTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextoTextoTex
+                                            toTextovvvvTextoTextovv.
+                                        </p>
+                                        <p>TextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextovTextoTextoTextoTextoTextoTexto
+                                            TextoTextoTextoTextoTextoTextoTextoTextoTextoTextovTextovTextoTextoTextoTextoTextovvvv
+                                            vTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextoTextoTextoText
+                                            ovvvvTextoTextovv.
+                                        </p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <div class="imagen">
+                                            <a href="imgs/mapa.jpg" target="_self">
+                                                <img class="img-fluid" src="imgs/mapa.jpg"  title=" " alt=" ">
+                                            </a>    
+                                        </div>     
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                        <div id="textoNivell1" class="container-fluid texto">    
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <div class="imagen">
+                                            <a href="imgs/mapa.jpg" target="_self">
+                                                <img class="img-fluid" src="imgs/mapa.jpg"  title=" " alt=" ">
+                                            </a>    
+                                        </div>     
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <h5 class="modal-title">Activitat 2</h5>
+                                        <p>TextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextovTextoTextoTextoTextoTextwrwe
+                                            rwrewrwerwrewraaaTextoTextoTextoTextoTextoTextoTextovTextovTextoTextoTextoTextoTexto
+                                            vvvvvTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextoTextoTex
+                                            toTextovvvvTextoTextovv.
+                                        </p>
+                                        <p>TextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextovTextoTextoTextoTextoTextoTexto
+                                            TextoTextoTextoTextoTextoTextoTextoTextoTextoTextovTextovTextoTextoTextoTextoTextovvvv
+                                            vTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextoTextoTextoText
+                                            ovvvvTextoTextovv.
+                                        </p>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                        <div id="textoNivell1" class="container-fluid texto">    
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <h5 class="modal-title">Activitat 3</h5>
+                                        <p>TextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextovTextoTextoTextoTextoTextwrwe
+                                            rwrewrwerwrewraaaTextoTextoTextoTextoTextoTextoTextovTextovTextoTextoTextoTextoTexto
+                                            vvvvvTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextoTextoTex
+                                            toTextovvvvTextoTextovv.
+                                        </p>
+                                        <p>TextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextovTextoTextoTextoTextoTextoTexto
+                                            TextoTextoTextoTextoTextoTextoTextoTextoTextoTextovTextovTextoTextoTextoTextoTextovvvv
+                                            vTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextoTextoTextoText
+                                            ovvvvTextoTextovv.
+                                        </p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <div class="imagen">
+                                            <a href="imgs/mapa.jpg" target="_self">
+                                                <img class="img-fluid" src="imgs/mapa.jpg"  title=" " alt=" ">
+                                            </a>    
+                                        </div>     
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+          
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Tancar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MODAL ACTIVITATS -->
+        <div class="modal" id="modalPlaza">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <div id="imagenPrincipalNivell2" class="container-fluid">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <div class="imagen">
+                                        <img class="img-fluid" src="imgs/principal.jpg" title=" " alt=" ">
+                                    </div>
+                                    <h4 class="modal-title">Plaça</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+          
+                        <!-- Modal body -->
+                    <div class="modal-body">
+                        <div id="textoNivell1" class="container-fluid texto">    
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <h5 class="modal-title">Plaça 1</h5>
+                                        <p>TextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextovTextoTextoTextoTextoTextwrwe
+                                            rwrewrwerwrewraaaTextoTextoTextoTextoTextoTextoTextovTextovTextoTextoTextoTextoTexto
+                                            vvvvvTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextoTextoTex
+                                            toTextovvvvTextoTextovv.
+                                        </p>
+                                        <p>TextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextovTextoTextoTextoTextoTextoTexto
+                                            TextoTextoTextoTextoTextoTextoTextoTextoTextoTextovTextovTextoTextoTextoTextoTextovvvv
+                                            vTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextoTextoTextoText
+                                            ovvvvTextoTextovv.
+                                        </p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <div class="imagen">
+                                            <a href="imgs/mapa.jpg" target="_self">
+                                                <img class="img-fluid" src="imgs/mapa.jpg"  title=" " alt=" ">
+                                            </a>    
+                                        </div>     
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                        <div id="textoNivell1" class="container-fluid texto">    
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <div class="imagen">
+                                            <a href="imgs/mapa.jpg" target="_self">
+                                                <img class="img-fluid" src="imgs/mapa.jpg"  title=" " alt=" ">
+                                            </a>    
+                                        </div>     
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <h5 class="modal-title">Plaça 2</h5>
+                                        <p>TextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextovTextoTextoTextoTextoTextwrwe
+                                            rwrewrwerwrewraaaTextoTextoTextoTextoTextoTextoTextovTextovTextoTextoTextoTextoTexto
+                                            vvvvvTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextoTextoTex
+                                            toTextovvvvTextoTextovv.
+                                        </p>
+                                        <p>TextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextovTextoTextoTextoTextoTextoTexto
+                                            TextoTextoTextoTextoTextoTextoTextoTextoTextoTextovTextovTextoTextoTextoTextoTextovvvv
+                                            vTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextoTextoTextoText
+                                            ovvvvTextoTextovv.
+                                        </p>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                        <div id="textoNivell1" class="container-fluid texto">    
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <h5 class="modal-title">Plaça 3</h5>
+                                        <p>TextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextovTextoTextoTextoTextoTextwrwe
+                                            rwrewrwerwrewraaaTextoTextoTextoTextoTextoTextoTextovTextovTextoTextoTextoTextoTexto
+                                            vvvvvTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextoTextoTex
+                                            toTextovvvvTextoTextovv.
+                                        </p>
+                                        <p>TextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextovTextoTextoTextoTextoTextoTexto
+                                            TextoTextoTextoTextoTextoTextoTextoTextoTextoTextovTextovTextoTextoTextoTextoTextovvvv
+                                            vTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextoTextovTextoTextoTextoTextoText
+                                            ovvvvTextoTextovv.
+                                        </p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                        <div class="imagen">
+                                            <a href="imgs/mapa.jpg" target="_self">
+                                                <img class="img-fluid" src="imgs/mapa.jpg"  title=" " alt=" ">
+                                            </a>    
+                                        </div>     
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+          
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Tancar</button>
                     </div>
                 </div>
             </div>
