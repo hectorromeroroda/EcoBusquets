@@ -1,0 +1,125 @@
+/*General*/
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/* Index*/
+#botonesHome .imgboton{
+    width: 60%;
+}
+
+#botonesHome .card{
+    text-align: center;
+    border: 2px solid;
+    border-radius: 0px;
+}
+
+#imagenPrincipal.container-fluid{
+    margin-top: 56px;
+}
+
+/* Nivell1*/
+#linksNivell1 .icono{
+    float: left;
+}
+
+#linksNivell1 .titulo{
+    float: right;
+}
+
+#linksNivell1 .centrado{
+   height: 20%;
+   width: 60%
+}
+
+#linksAnclaHorts .titulo,
+#linksAnclaFruiters .titulo,
+#linksAnclaDistribucio .titulo,
+#linksAnclaProcesament .titulo,
+#linksAnclaActivitats .titulo,
+#linksAnclaPlaza .titulo,
+#linksAnclaCentre .titulo,
+#linksAnclaAllotjaments .titulo,
+#linksAnclaAltres .titulo,
+#linksAnclaViure .titulo,
+#linksAnclaArtesans .titulo,
+#linksAnclaArtistes .titulo,
+#linksAnclaEmpreses .titulo,
+#linksAnclaBressol .titulo,
+#linksAnclaEscola .titulo,
+#linksAnclaResidencia .titulo,
+#linksAnclaSocial .titulo,
+#linksAnclaBiblioteca .titulo,
+#linksAnclaEntitats .titulo,
+#linksAnclaEspecials .titulo,
+#linksAnclaFamilies .titulo,
+#linksAnclaEnvelliment .titulo,
+#linksAnclaEmancipacio .titulo,
+#linksAnclaTub .titulo,
+#linksAnclaEnergia .titulo,
+#linksAnclaAigua .titulo,
+#linksAnclaMobilitat .titulo,
+#linksAnclaResidus .titulo{
+    height: 50px;
+ }
+
+ #linksAnclaHorts .imgTitulo,
+ #linksAnclaHorts .titulo .row,
+ #linksAnclaFruiters .imgTitulo,
+ #linksAnclaFruiters .titulo .row,
+ #linksAnclaDistribucio .imgTitulo,
+ #linksAnclaDistribucio .titulo .row,
+ #linksAnclaProcesament .imgTitulo,
+ #linksAnclaProcesament .titulo .row,
+ #linksAnclaActivitats .imgTitulo,
+ #linksAnclaActivitats .titulo .row,
+ #linksAnclaPlaza .imgTitulo,
+ #linksAnclaPlaza .titulo .row,
+ #linksAnclaCentre .imgTitulo,
+ #linksAnclaCentre .titulo .row,
+ #linksAnclaAllotjaments .imgTitulo,
+ #linksAnclaAllotjaments .titulo .row,
+ #linksAnclaAltres .imgTitulo,
+ #linksAnclaAltres .titulo .row,
+ #linksAnclaViure .imgTitulo,
+ #linksAnclaViure .titulo .row,
+ #linksAnclaArtesans .imgTitulo,
+ #linksAnclaArtesans .titulo .row,
+ #linksAnclaArtistes .imgTitulo,
+ #linksAnclaArtistes .titulo .row,
+ #linksAnclaEmpreses .imgTitulo,
+ #linksAnclaEmpreses .titulo .row,
+ #linksAnclaBressol .imgTitulo,
+ #linksAnclaBressol .titulo .row,
+ #linksAnclaEscola .imgTitulo,
+ #linksAnclaEscola .titulo .row,
+ #linksAnclaResidencia .imgTitulo,
+ #linksAnclaResidencia .titulo .row,
+ #linksAnclaSocial .imgTitulo,
+ #linksAnclaSocial .titulo .row,
+ #linksAnclaBiblioteca .imgTitulo,
+ #linksAnclaBiblioteca .titulo .row,
+ #linksAnclaEntitats .imgTitulo,
+ #linksAnclaEntitats .titulo .row,
+ #linksAnclaEspecials .imgTitulo,
+ #linksAnclaEspecials .titulo .row,
+ #linksAnclaFamilies .imgTitulo,
+ #linksAnclaFamilies .titulo .row,
+ #linksAnclaEnvelliment .imgTitulo,
+ #linksAnclaEnvelliment .titulo .row,
+ #linksAnclaEmancipacio .imgTitulo,
+ #linksAnclaEmancipacio .titulo .row,
+ #linksAnclaTub .imgTitulo,
+ #linksAnclaTub .titulo .row,
+ #linksAnclaEnergia .imgTitulo,
+ #linksAnclaEnergia .titulo .row,
+ #linksAnclaAigua .imgTitulo,
+ #linksAnclaAigua .titulo .row,
+ #linksAnclaMobilitat .imgTitulo,
+ #linksAnclaMobilitat .titulo .row,
+ #linksAnclaResidus .imgTitulo,
+ #linksAnclaResidus .titulo .row{
+    height: 100%;
+ }
