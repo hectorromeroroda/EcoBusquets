@@ -34,6 +34,20 @@
                 });
             });
         </script>
+        <script>
+            // Menu Active segun la seleccion
+            $(function(){
+                var url = window.location.pathname, 
+                    urlRegExp = new RegExp(url.replace(/\/$/,'') + "$"); 
+                
+                    $('.menu a').each(function(){
+                    
+                    if(urlRegExp.test(this.href.replace(/\/$/,''))){
+                        $(this).addClass('active');
+                    }
+                });
+            });
+        </script>
        
     </head> 
 
