@@ -5,9 +5,17 @@
     padding-left: 0px;
 }
 
+body p{
+    text-align: justify;
+ }
+
 /* Index*/
 #botonesHome .imgboton{
     width: 60%;
+}
+
+#botonesHome .textoCard{
+    text-align: center !important;
 }
 
 #botonesHome .card{
@@ -19,6 +27,8 @@
 .menu{
     margin-bottom: 56px;
 }
+
+
 
 /* Nivell1*/
 #linksNivell1 .icono{
@@ -141,3 +151,5 @@
  #linksAnclaResidus .titulo .row{
     height: 100%;
  }
+
+
