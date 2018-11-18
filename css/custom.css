@@ -34,6 +34,7 @@
    width: 60%
 }
 
+#linksAnclaAparcamentBicis .titulo,
 #linksAnclaArquitectura1 .titulo,
 #linksAnclaArquitectura2 .titulo,
 #linksAnclaArquitectura3 .titulo,
@@ -70,6 +71,8 @@
     height: 50px;
  }
 
+ #linksAnclaAparcamentBicis .imgTitulo,
+ #linksAnclaAparcamentBicis .titulo .row,
  #linksAnclaArquitectura1 .imgTitulo,
  #linksAnclaArquitectura1 .titulo .row,
  #linksAnclaArquitectura2 .imgTitulo,
