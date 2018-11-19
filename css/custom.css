@@ -37,12 +37,81 @@ body p{
 
 #linksNivell1 .titulo{
     float: right;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#linksNivell1 h2{
+    font-size: 28px;
 }
 
 #linksNivell1 .centrado{
-   height: 20%;
-   width: 60%
+    padding-right: 0px;
+    padding-left: 0px;
 }
+
+#linksNivell1 .fila2{
+    margin-top: 30px;
+ }
+
+#linksNivell1 .fila3{
+   margin-top: 30px;
+   margin-bottom: 40px;
+}
+
+#linksNivell1.container-fluid{
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+#textoNivell1.texto{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#TituloNivell1.texto{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#linksAnclaAparcamentBicis.container-fluid,
+#linksAnclaArquitectura1.container-fluid,
+#linksAnclaArquitectura2.container-fluid,
+#linksAnclaArquitectura3.container-fluid,
+#linksAnclaArquitectura4.container-fluid,
+#linksAnclaSinTitulo.container-fluid,
+#linksAnclaHorts.container-fluid,
+#linksAnclaFruiters.container-fluid,
+#linksAnclaDistribucio.container-fluid,
+#linksAnclaProcesament.container-fluid,
+#linksAnclaActivitats.container-fluid,
+#linksAnclaPlaza.container-fluid,
+#linksAnclaCentre.container-fluid,
+#linksAnclaAllotjaments.container-fluid,
+#linksAnclaCursos.container-fluid,
+#linksAnclaViure.container-fluid,
+#linksAnclaArtesans.container-fluid,
+#linksAnclaArtistes.container-fluid,
+#linksAnclaEmpreses.container-fluid,
+#linksAnclaBressol.container-fluid,
+#linksAnclaEscola.container-fluid,
+#linksAnclaResidencia.container-fluid,
+#linksAnclaSocial.container-fluid,
+#linksAnclaBiblioteca.container-fluid,
+#linksAnclaEntitat.container-fluid,
+#linksAnclaEspecials.container-fluid,
+#linksAnclaFamilies.container-fluid,
+#linksAnclaEnvelliment.container-fluid,
+#linksAnclaEmancipacio.container-fluid,
+#linksAnclaTub.container-fluid,
+#linksAnclaEnergia.container-fluid,
+#linksAnclaAigua.container-fluid,
+#linksAnclaMobilitat.container-fluid,
+#linksAnclaResidus.container-fluid{
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
 
 #linksAnclaAparcamentBicis .titulo,
 #linksAnclaArquitectura1 .titulo,
