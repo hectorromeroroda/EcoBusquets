@@ -105,6 +105,10 @@ body p{
     text-transform: uppercase;
 }
 
+#linksAnclaEmpreses .imagen2{
+    margin-top: 20px;
+}
+
 #linksAnclaAparcamentBicis.container-fluid,
 #linksAnclaArquitectura1.container-fluid,
 #linksAnclaArquitectura2.container-fluid,
