@@ -12,6 +12,7 @@ body p{
 /* Index*/
 #botonesHome .imgboton{
     width: 60%;
+    margin-top: 20px;
 }
 
 #botonesHome .textoCard{
@@ -55,18 +56,16 @@ body p{
     padding-left: 0px;
 }
 
+#linksNivell1 .fila3,
 #linksNivell1 .fila2{
     margin-top: 30px;
  }
 
-#linksNivell1 .fila3{
-   margin-top: 30px;
-   margin-bottom: 40px;
-}
 
 #linksNivell1.container-fluid{
-   margin-top: 30px;
-   margin-bottom: 30px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   background: #f4f4f4;
 }
 
 #textoNivell1.texto{
