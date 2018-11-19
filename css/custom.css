@@ -8,6 +8,10 @@
 body p{
     text-align: justify;
  }
+ a:hover {
+    text-decoration: none !important;
+    transition: all 0.3s ease-in-out !important;
+}
 
 /* Index*/
 #botonesHome .imgboton{
@@ -48,7 +52,7 @@ body p{
 }
 
 #linksNivell1 h2{
-    font-size: 28px;
+    font-size: 20px;
 }
 
 #linksNivell1 .centrado{
