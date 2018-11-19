@@ -22,13 +22,18 @@ body p{
     text-align: center;
     border: 2px solid;
     border-radius: 0px;
+    margin-bottom: 30px;
 }
 
 .menu{
     margin-bottom: 56px;
 }
 
-
+.menu .nav-item{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
 
 /* Nivell1*/
 #linksNivell1 .icono{
@@ -73,6 +78,7 @@ body p{
     margin-top: 40px;
     margin-bottom: 30px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 #linksAnclaAparcamentBicis.container-fluid,
@@ -221,4 +227,10 @@ body p{
     height: 100%;
  }
 
+ /* Modales*/
+ #imagenPrincipalNivell2 h4{
+     text-align: center;
+     text-transform: uppercase;
+     padding-top: 12px;
+ }
 
