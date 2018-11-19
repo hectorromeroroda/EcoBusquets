@@ -33,20 +33,21 @@ body p{
 
 
 /* Index*/
-#botonesHome .imgboton{
-    width: 60%;
-    margin-top: 20px;
-}
-
 #botonesHome .textoCard{
     text-align: center !important;
 }
 
 #botonesHome .card{
     text-align: center;
-    border: 2px solid;
+    border: 2px solid #343a40!important;
     border-radius: 0px;
     margin-bottom: 30px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 24px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#botonesHome .card:hover{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 24px 0 rgba(0, 0, 0, 0.19);
 }
 
 .menu{
@@ -58,6 +59,7 @@ body p{
     font-weight: 500;
     letter-spacing: 1px;
 }
+
 
 /* Nivell1*/
 #linksNivell1 .icono{
