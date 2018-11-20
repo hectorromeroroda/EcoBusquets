@@ -17,6 +17,10 @@ body p{
     text-align: center;
 }
 
+.imagenDoble{
+    margin-top: 30px;
+}
+
 .containerBtn .btnLeerMas{
     background: #343a40!important;
     text-transform: uppercase;
@@ -112,7 +116,7 @@ body p{
 }
 
 #linksAnclaEmpreses .imagen2{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #linksNivell1 .imgboton{
