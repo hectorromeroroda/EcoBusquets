@@ -21,6 +21,16 @@ body p{
     margin-top: 30px;
 }
 
+#imagenSecundariaIndex.container-fluid{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#imagenSeparador.container-fluid{
+    
+    margin-bottom: 30px;
+}
+
 .containerBtn .btnLeerMas{
     background: #343a40!important;
     text-transform: uppercase;
@@ -121,6 +131,11 @@ body p{
 
 #linksNivell1 .imgboton{
     border-radius: 50%;
+}
+
+#imagenPrincipalIndex.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 #linksAnclaAparcamentBicis.container-fluid,
