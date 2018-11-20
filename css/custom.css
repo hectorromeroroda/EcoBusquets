@@ -50,6 +50,11 @@ body p{
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 24px 0 rgba(0, 0, 0, 0.19);
 }
 
+.logo2{
+    width: 40%;
+    margin-bottom: 10px;
+}
+
 .menu{
     margin-bottom: 56px;
 }
@@ -182,6 +187,7 @@ body p{
 #linksAnclaMobilitat .titulo,
 #linksAnclaResidus .titulo{
     height: 50px;
+    margin-bottom: 5px;
  }
 
  #linksAnclaAparcamentBicis .imgTitulo,
