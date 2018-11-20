@@ -79,6 +79,7 @@ body p{
 
 #linksNivell1 h2{
     font-size: 20px;
+    padding-top: 15px;
 }
 
 #linksNivell1 .centrado{
@@ -112,6 +113,10 @@ body p{
 
 #linksAnclaEmpreses .imagen2{
     margin-top: 20px;
+}
+
+#linksNivell1 .imgboton{
+    border-radius: 50%;
 }
 
 #linksAnclaAparcamentBicis.container-fluid,
