@@ -26,6 +26,11 @@ body p{
     margin-bottom: 30px;
 }
 
+#modalSostenibilitat,
+#modalBio{
+    text-align: center;
+}
+
 #imagenSeparador.container-fluid{
     
     margin-bottom: 30px;
